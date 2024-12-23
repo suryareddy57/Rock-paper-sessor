@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+.score {
+    text-align: center;
+}
+
+.score p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.score span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.result {
+    margin-bottom: 2rem;
+}
+
+#result-text {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.choice {
+    font-size: 2rem;
+    padding: 1rem;
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.choice:hover {
+    transform: scale(1.1);
+}
+
+#reset {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#reset:hover {
+    background-color: #ff0000;
+}
